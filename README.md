@@ -30,3 +30,4 @@ curl -X GET \
 - Linguagem de Programação Java
 - Spring Boot
 - Banco de dados H2
+- Junit
