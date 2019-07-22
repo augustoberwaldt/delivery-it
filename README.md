@@ -1,6 +1,6 @@
 # delivery-it
 
-#####Exemplo requisição para criação de Account
+##### Exemplo requisição para criação de Account
 
 curl -X POST \
   http://localhost:8080/v1/account/newAccount \
@@ -16,8 +16,7 @@ curl -X POST \
 
 }'
 
-
-#####Exemplo requisição para consulta de Accounts
+##### Exemplo requisição para consulta de Accounts
 
 curl -X GET \
   http://localhost:8080/v1/account/getAccounts \
@@ -26,7 +25,7 @@ curl -X GET \
   -H 'cache-control: no-cache'
   
 
-#####Tecnologias Utilizadas
+##### Tecnologias Utilizadas
 - Linguagem de Programação Java
 - Spring Boot
 - Banco de dados H2
